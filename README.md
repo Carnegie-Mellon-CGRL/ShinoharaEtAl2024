@@ -1,2 +1,2 @@
 # ShinoharaEtAl2024
-Code for WSS simulation in murine PAs
+Code for WSS simulation in murine PAs. All coding in MATLAB. Running "run_mouse_subject_wise.m" loads the hemodynamic and geometric data from "input_data.txt", identifies the morphometric tree with the resistance that matches that derived from the hemodynamic measurements for each subject, and calculates hemodynamics for each subject. Hemodynamic metrics of interest are then  averaged and plotted for each of the 4 experimental groups. See paper for additional methods details.
